@@ -1,0 +1,84 @@
+name: "✨ Feature Request"
+description: "Suggest a new feature or enhancement"
+title: "[Feature]: "
+labels: ["enhancement"]
+
+body:
+  - type: dropdown
+    id: pillar
+    attributes:
+      label: Service Pillar
+      description: Which Covalida pillar does this feature relate to?
+      options:
+        - "🛡️ Core (GDPR · AI Act · NIS2 · ISO 27001)"
+        - "🔒 Tech & Trust (CRA · CE Marking · GSPR)"
+        - "🔗 Traceability (LkSG · CSDDD · EUDR)"
+        - "♻️ Circularity (PPWR · DPP · Ecodesign)"
+        - "🎓 Training (LMS · ISO/IEC 17024)"
+        - "🌍 EC-REP / Authorized Representative Service"
+        - "⚙️ Platform / Infrastructure / DX"
+        - "🔀 Cross-cutting / Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / Motivation
+      description: |
+        What problem does this solve? What is the user or regulatory need?
+        Include any relevant regulation, standard, or customer feedback.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: How do you envision this working? UI flows, API contracts, data model — whatever is useful.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: What other approaches did you consider and why did you rule them out?
+    validations:
+      required: false
+
+  - type: dropdown
+    id: regulatory_driver
+    attributes:
+      label: Regulatory Driver
+      description: Is this feature driven by a specific regulation or standard?
+      multiple: true
+      options:
+        - "No specific regulatory driver"
+        - "GDPR / DSGVO"
+        - "AI Act"
+        - "NIS2"
+        - "CRA (Cyber Resilience Act)"
+        - "LkSG (German Supply Chain Act)"
+        - "CSDDD (EU Supply Chain Directive)"
+        - "EUDR (Deforestation Regulation)"
+        - "PPWR (Packaging & Packaging Waste Regulation)"
+        - "Ecodesign for Sustainable Products Regulation"
+        - "ISO/IEC 17065 (Product Certification)"
+        - "ISO/IEC 17021 (Management System Certification)"
+        - "ISO/IEC 17024 (Personnel Certification)"
+        - "Other (specify in description)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority_estimate
+    attributes:
+      label: Estimated Priority
+      options:
+        - "P0 — Blocker / regulatory deadline"
+        - "P1 — High / significant user impact"
+        - "P2 — Medium / nice to have"
+        - "P3 — Low / future consideration"
+    validations:
+      required: false

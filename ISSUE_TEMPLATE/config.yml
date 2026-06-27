@@ -1,0 +1,22 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: "🔐 Security Vulnerability"
+    url: "mailto:security@covalida.com"
+    about: >
+      Do NOT open a public issue for security vulnerabilities.
+      Email security@covalida.com instead — we follow coordinated disclosure.
+
+  - name: "🏢 EC-REP / Certification Enquiry"
+    url: "https://covalida.com/"
+    about: >
+      Business enquiries about EU Authorized Representative services
+      or certification scope — use our contact form for faster response.
+
+  - name: "📖 Documentation"
+    url: "https://docs.covalida.com"
+    about: Check the docs before opening an issue.
+
+  - name: "💬 Community Discussion"
+    url: "https://github.com/orgs/covalida/discussions"
+    about: Questions, ideas, and general community discussion.

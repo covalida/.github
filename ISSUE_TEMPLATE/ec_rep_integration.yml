@@ -1,0 +1,64 @@
+name: "🌍 EC-REP / Trust Center — Technical Integration"
+description: "Technical integration question for EC-REP or certification workflows"
+title: "[EC-REP]: "
+labels: ["ec-rep", "integration"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This template is for **technical integration questions** about EC-REP or certification workflows
+        (API design, document formats, Trust Center connectivity, DPP endpoints).
+        
+        For **commercial enquiries** (pricing, onboarding, scope of representation),
+        please use [covalida.com/contact](https://covalida.com/contact) for a faster response.
+
+  - type: dropdown
+    id: service_area
+    attributes:
+      label: Service Area
+      options:
+        - "EU Authorized Representative (EC-REP) — document API"
+        - "Trust Center — client portal integration"
+        - "CB workflows — application / audit / certificate API"
+        - "Digital Product Passport (DPP) — data submission"
+        - "EUDR — geo-data / polygon submission"
+        - "LkSG / CSDDD — due diligence statement (DDS)"
+        - "Other"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: market
+    attributes:
+      label: Target EU Market
+      description: Which EU regulation or product category is the EC-REP needed for?
+      multiple: true
+      options:
+        - "CRA (Cyber Resilience Act) — digital products"
+        - "NIS2 — network & information systems"
+        - "PPWR — packaging & packaging waste"
+        - "GSPR — general product safety"
+        - "MDR — medical devices"
+        - "RED — radio equipment"
+        - "Other (specify in description)"
+    validations:
+      required: false
+
+  - type: textarea
+    id: technical_question
+    attributes:
+      label: Technical Question
+      description: Describe the integration challenge, API endpoint question, or data format issue.
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_setup
+    attributes:
+      label: Current Setup / Context
+      description: |
+        Brief description of your product, tech stack, and what you're trying to connect.
+        Country of origin, product category, and volume are helpful context.
+    validations:
+      required: false

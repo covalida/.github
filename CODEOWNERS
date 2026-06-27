@@ -1,0 +1,8 @@
+# Covalida — Default Code Owners
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+
+# ── Default: all files require core review ──────────────────────────────────
+*                                   @covalida/core
+
+# ── Infrastructure & CI ─────────────────────────────────────────────────────

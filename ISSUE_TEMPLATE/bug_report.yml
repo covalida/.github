@@ -1,0 +1,101 @@
+name: "🐛 Bug Report"
+description: "Something isn't working as expected"
+title: "[Bug]: "
+labels: ["bug", "triage"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug. Fill in as much detail as possible.
+        
+        > **Security vulnerability?** Email [security@covalida.com](mailto:security@covalida.com) instead — do not open a public issue.
+
+  - type: dropdown
+    id: repository
+    attributes:
+      label: Affected Repository
+      options:
+        - platform
+        - cb-engine
+        - geo-pipeline
+        - ec-rep
+        - infra
+        - docs
+        - other
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version / Commit
+      placeholder: "e.g. main@abc1234 · v1.2.3"
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of the bug.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Minimal steps to reproduce the issue.
+      placeholder: |
+        1. Navigate to ...
+        2. Submit form with ...
+        3. Observe error: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+    validations:
+      required: true
+
+  - type: dropdown
+    id: compliance_impact
+    attributes:
+      label: Compliance / Data Integrity Impact
+      description: Does this bug affect certification data, CoC records, geo-evidence, or EC-REP documents?
+      options:
+        - "No — purely functional / UI issue"
+        - "Yes — affects compliance data or auditable records (flag as high priority)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: |
+        - Deployment: production / staging / local
+        - Browser (if UI): Chrome 126 / Firefox 128 / ...
+        - Node version (if API/server): v22.x
+        - OS:
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Logs / Screenshots
+      description: Paste logs or attach screenshots. Redact any personal data before pasting.
+      render: shell
+    validations:
+      required: false
