@@ -10,7 +10,7 @@ For security vulnerabilities, follow [SECURITY.md](SECURITY.md) — do **not** o
 ## Development Prerequisites
 
 | Tool | Version |
-|------|---------|
+| --- | --- |
 | Node.js | ≥ 24 LTS |
 | pnpm | ≥ 10 |
 | Docker + Docker Compose | latest stable |
@@ -49,7 +49,7 @@ Repo-specific setup instructions live in the respective `README.md`.
 We use **trunk-based development** with short-lived feature branches.
 
 | Branch pattern | Purpose |
-|---------------|---------|
+| --- | --- |
 | `main` | Production-ready. Protected — direct pushes blocked. |
 | `development` | Integration branch. CI runs on every push. |
 | `feature/<ticket-id>-short-description` | Feature work |
@@ -123,7 +123,7 @@ pnpm format      # Prettier check
 ## Testing
 
 | Type | Tool | Required? |
-|------|------|-----------|
+| --- | --- | --- |
 | Unit | Vitest | Yes |
 | Integration / E2E | Playwright | Yes (platform repo) |
 | Geo pipeline | pytest + PostGIS fixtures | Yes (geo-pipeline repo) |

@@ -5,7 +5,7 @@
 Security fixes are applied to the **latest `main` branch only**. We do not backport to older releases.
 
 | Repository | Supported |
-|-----------|-----------|
+| --- | --- |
 | `platform` | ✅ `main` |
 | `cb-engine` | ✅ `main` |
 | `geo-pipeline` | ✅ `main` |
@@ -97,5 +97,5 @@ A PGP public key and `security.txt` are available at:
 We gratefully acknowledge responsible disclosures. Reporters who wish to be credited will be listed here after fix deployment.
 
 | Reporter | Finding | Year |
-|---------|---------|------|
+| --- | --- | --- |
 | — | — | — |
