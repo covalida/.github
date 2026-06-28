@@ -1,0 +1,61 @@
+# =============================================================================
+# Markdown Link Check
+# =============================================================================
+# Validates relative/internal Markdown links across the repository so that
+# cross-references (e.g. SECURITY.md, docs/RESOURCES.md) never silently break.
+#
+# Runs in --offline mode: it verifies that linked files exist but does NOT
+# probe external URLs. This keeps the check deterministic and avoids false
+# failures while covalida.com properties are still in Early Access. External
+# URL validation can be enabled later by removing the --offline flag.
+#
+# Pipeline: Checkout → Link Check
+#
+# Engine: lycheeverse/lychee
+# =============================================================================
+
+name: 🔗 Link Check
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/*.md'
+      - '.github/workflows/links.yml'
+  pull_request:
+    paths:
+      - '**/*.md'
+  workflow_dispatch:
+
+# ---------------------------------------------------------------------------
+# Permissions
+# ---------------------------------------------------------------------------
+
+permissions:
+  contents: read
+
+# =============================================================================
+# Jobs
+# =============================================================================
+
+jobs:
+  # ---------------------------------------------------------------------------
+  # Job: Link Check
+  # ---------------------------------------------------------------------------
+  links:
+    name: 🔗 Check relative links
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v6
+
+      - name: 🔗 Run lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --offline
+            --no-progress
+            --verbose
+            "**/*.md"
+          fail: true

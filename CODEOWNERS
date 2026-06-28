@@ -6,3 +6,18 @@
 *                                   @covalida/core
 
 # ── Infrastructure & CI ─────────────────────────────────────────────────────
+/.github/                           @covalida/core
+/.github/workflows/                 @covalida/core
+
+# ── Community health & governance ────────────────────────────────────────────
+/profile/                           @covalida/core
+/CODE_OF_CONDUCT.md                 @covalida/core
+/CONTRIBUTING.md                    @covalida/core
+/SUPPORT.md                         @covalida/core
+/ISSUE_TEMPLATE/                    @covalida/core
+/PULL_REQUEST_TEMPLATE.md           @covalida/core
+
+# ── Security & central resources (single source of truth) ────────────────────
+/SECURITY.md                        @covalida/core
+/docs/                              @covalida/core
+/docs/RESOURCES.md                  @covalida/core

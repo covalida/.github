@@ -15,7 +15,7 @@ One platform for GDPR&nbsp;·&nbsp;AI Act&nbsp;·&nbsp;NIS2&nbsp;·&nbsp;CRA&nbs
 
 [![Website](https://img.shields.io/badge/covalida.com-0D2318?style=for-the-badge&logo=googlechrome&logoColor=00C87A)](https://covalida.com)&nbsp;
 [![Status](https://img.shields.io/badge/Status-Early%20Access-00C87A?style=for-the-badge&logoColor=white)](https://covalida.com)&nbsp;
-[![EC-REP](https://img.shields.io/badge/EU%20Authorized%20Representative-003399?style=for-the-badge&logo=europeanunion&logoColor=FFCC00)](https://covalida.com/ec-rep)&nbsp;
+[![EC-REP](https://img.shields.io/badge/EU%20Authorized%20Representative-003399?style=for-the-badge&logo=europeanunion&logoColor=FFCC00)](https://covalida.com/s/ec-rep)&nbsp;
 
 
 </div>
@@ -63,7 +63,7 @@ Non-EU manufacturers placing regulated products on the EU single market require 
 
 Particularly suited for manufacturers from China and Southeast Asia navigating **CRA, NIS2, PPWR, GSPR**, and **MDR**.
 
-→ [Learn more at covalida.com/ec-rep](https://covalida.com/s/ec-rep)
+→ [Learn more at covalida.com/s/ec-rep](https://covalida.com/s/ec-rep)
 
 ---
 
@@ -72,6 +72,17 @@ Particularly suited for manufacturers from China and Southeast Asia navigating *
 Covalida operates as a **Certification Body (CB)** under the applicable ISO/IEC standards (17065, 17021, 17024) and as an EU Authorized Representative. All certification activities are subject to accreditation oversight.
 
 For compliance or accreditation enquiries: [compliance@covalida.com](mailto:compliance@covalida.com)
+
+---
+
+## Get in Touch
+
+| Topic | Contact |
+| --- | --- |
+| General & business | [hello@covalida.com](mailto:hello@covalida.com) |
+| Compliance & accreditation · EC-REP | [compliance@covalida.com](mailto:compliance@covalida.com) |
+| Security & vulnerability disclosure | [security@covalida.com](mailto:security@covalida.com) — see [Security Policy](https://github.com/covalida/.github/blob/main/SECURITY.md) |
+| Questions & ideas | [GitHub Discussions](https://github.com/orgs/covalida/discussions) |
 
 ---
 
