@@ -71,12 +71,16 @@
 
 | Token | Hex | Usage |
 | --- | --- | --- |
-| Dark Green | `#0D2318` | Primary background, deep brand tone |
-| Bright Green | `#00C87A` | Accent, logo mark, status highlights |
-| EU Blue | `#003399` | EU / regulatory context (e.g. EC-REP badge) |
-| EU Gold | `#FFCC00` | EU flag accent, paired with EU Blue |
+| Deep Teal | `#008080` | Primary brand color — logo mark, primary accents |
+| Light Teal | `#20B2AA` | Secondary accent — highlights, gradients, status |
+| Deep Slate Gray | `#2F4F4F` | Dark neutral — backgrounds, wordmark on light, body text |
+| EU Blue | `#003399` | EU-flag accent — **EC-REP badge only**, not a brand color |
+| EU Gold | `#FFCC00` | EU-flag accent — paired with EU Blue on the EC-REP badge |
 
 Tagline: **"Securing the Core."**
+
+> Full corporate identity (logo, construction grid, typography, scalability,
+> logo lockups, usage rules) lives in [BRAND.md](BRAND.md).
 
 ---
 

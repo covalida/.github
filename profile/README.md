@@ -13,8 +13,8 @@ One platform for GDPR&nbsp;·&nbsp;AI Act&nbsp;·&nbsp;NIS2&nbsp;·&nbsp;CRA&nbs
 
 <br/>
 
-[![Website](https://img.shields.io/badge/covalida.com-0D2318?style=for-the-badge&logo=googlechrome&logoColor=00C87A)](https://covalida.com)&nbsp;
-[![Status](https://img.shields.io/badge/Status-Early%20Access-00C87A?style=for-the-badge&logoColor=white)](https://covalida.com)&nbsp;
+[![Website](https://img.shields.io/badge/covalida.com-008080?style=for-the-badge&logo=googlechrome&logoColor=white)](https://covalida.com)&nbsp;
+[![Status](https://img.shields.io/badge/Status-Early%20Access-20B2AA?style=for-the-badge&logoColor=white)](https://covalida.com)&nbsp;
 [![EC-REP](https://img.shields.io/badge/EU%20Authorized%20Representative-003399?style=for-the-badge&logo=europeanunion&logoColor=FFCC00)](https://covalida.com/s/ec-rep)&nbsp;
 
 
