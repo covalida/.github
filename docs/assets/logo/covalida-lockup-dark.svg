@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 220" role="img" aria-label="COVALIDA">
+  <title>COVALIDA</title>
+  <defs>
+    <linearGradient id="cv-teal-d" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#22BDB3"/>
+      <stop offset="1" stop-color="#007E7E"/>
+    </linearGradient>
+    <mask id="cv-cut-d">
+      <rect width="256" height="256" fill="#fff"/>
+      <path d="M172.1 143.5 A 50 50 0 1 1 172.1 96.5" fill="none" stroke="#000" stroke-width="16"/>
+      <path d="M113 107 L128 100 L143 107 L143 121 C143 131 137 136 128 140 C119 136 113 131 113 121 Z" fill="none" stroke="#000" stroke-width="7"/>
+    </mask>
+  </defs>
+  <g transform="translate(20,16) scale(0.7227)" mask="url(#cv-cut-d)">
+    <path d="M70 44 L186 44 Q198 44 198 56 L198 128 C198 168 168 192 128 212 C88 192 58 168 58 128 L58 56 Q58 44 70 44 Z" fill="url(#cv-teal-d)"/>
+    <path d="M128 44 L186 44 Q198 44 198 56 L198 128 C198 168 168 192 128 212 Z" fill="#005F5F" opacity="0.22"/>
+  </g>
+  <text x="226" y="110" dominant-baseline="central" font-family="'Poppins','Segoe UI','Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="92" letter-spacing="4" fill="#FFFFFF">COVALIDA</text>
+</svg>

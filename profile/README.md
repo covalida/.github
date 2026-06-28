@@ -2,7 +2,10 @@
 
 <br/>
 
-<h1>COVALIDA</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../docs/assets/logo/covalida-lockup-dark.svg">
+  <img alt="COVALIDA" src="../docs/assets/logo/covalida-lockup-light.svg" width="360">
+</picture>
 
 <p><strong>Securing the Core.</strong></p>
 

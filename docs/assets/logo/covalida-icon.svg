@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Covalida">
+  <title>Covalida</title>
+  <defs>
+    <linearGradient id="cv-teal" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#22BDB3"/>
+      <stop offset="1" stop-color="#007E7E"/>
+    </linearGradient>
+    <mask id="cv-cut">
+      <rect width="256" height="256" fill="#fff"/>
+      <!-- "C" gap: transparent ring, open on the right -->
+      <path d="M172.1 143.5 A 50 50 0 1 1 172.1 96.5" fill="none" stroke="#000" stroke-width="16"/>
+      <!-- thin gap isolating the inner mini-shield -->
+      <path d="M113 107 L128 100 L143 107 L143 121 C143 131 137 136 128 140 C119 136 113 131 113 121 Z" fill="none" stroke="#000" stroke-width="7"/>
+    </mask>
+  </defs>
+  <g mask="url(#cv-cut)">
+    <!-- shield -->
+    <path d="M70 44 L186 44 Q198 44 198 56 L198 128 C198 168 168 192 128 212 C88 192 58 168 58 128 L58 56 Q58 44 70 44 Z" fill="url(#cv-teal)"/>
+    <!-- fold: subtle darker right half -->
+    <path d="M128 44 L186 44 Q198 44 198 56 L198 128 C198 168 168 192 128 212 Z" fill="#005F5F" opacity="0.22"/>
+  </g>
+</svg>

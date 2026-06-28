@@ -92,25 +92,25 @@ The icon must remain legible across sizes. Three reference tiers:
 
 ## Asset Files
 
-Official, production-ready assets are not yet committed. Place them under
-`docs/assets/` once available, preferably as **SVG** (scales losslessly):
+Vector logo assets live under [`assets/logo/`](assets/logo/):
 
-```text
-docs/assets/
-├── logo/
-│   ├── covalida-icon.svg
-│   ├── covalida-icon-mono.svg
-│   ├── covalida-lockup-light.svg
-│   ├── covalida-lockup-dark.svg
-│   └── covalida-lockup-black.svg
-└── favicon/
-    ├── favicon.svg
-    └── apple-touch-icon.png
-```
+| File | Use |
+| --- | --- |
+| [covalida-icon.svg](assets/logo/covalida-icon.svg) | Icon only — favicons, app icons, avatars |
+| [covalida-lockup-light.svg](assets/logo/covalida-lockup-light.svg) | Horizontal lockup for light backgrounds (slate wordmark) |
+| [covalida-lockup-dark.svg](assets/logo/covalida-lockup-dark.svg) | Horizontal lockup for dark / black backgrounds (white wordmark) |
 
-> **Source files needed.** The brand sheet shared so far is a raster preview;
-> cropping it would yield low-quality marks. Provide the original vector
-> (SVG/AI) or high-resolution PNG exports to populate `docs/assets/`.
+> **Status — vector interpretation.** No original vector existed, so these SVGs
+> are a faithful, on-brand reconstruction of the corporate-identity sheet. The
+> negative-space "C" and the inner mini-shield are real transparent cut-outs
+> (SVG `mask`), so the icon works on any background.
+>
+> The wordmark currently uses a sans-serif **fallback** (`Poppins` → system
+> sans) rendered as live text. Once the brand typeface is finalized, convert
+> the wordmark to **outlined paths** so it renders identically in every viewer.
+>
+> Still to add when available: a monochrome icon, a favicon set, and
+> social / Open Graph preview images.
 
 ---
 
