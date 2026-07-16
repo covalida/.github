@@ -91,6 +91,6 @@ For compliance or accreditation enquiries: [compliance@covalida.com](mailto:comp
 
 <div align="center">
 
-[covalida.com](https://covalida.com) &nbsp;·&nbsp; [Trust Center](https://trust.covalida.com) &nbsp;·&nbsp; [Documentation](https://docs.covalida.com) &nbsp;·&nbsp; [Impressum](https://covalida.com/s/imprint) &nbsp;·&nbsp; [Datenschutz](https://covalida.com/s/privacy-policy)
+[covalida.com](https://covalida.com) &nbsp;·&nbsp; [Trust Center](https://trust.covalida.com) &nbsp;·&nbsp; [Documentation](https://docs.covalida.com) &nbsp;·&nbsp; [Legal Notice](https://covalida.com/s/imprint) &nbsp;·&nbsp; [Privacy Policy](https://covalida.com/s/privacy-policy)
 
 </div>

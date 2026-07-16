@@ -24,8 +24,8 @@
 | `https://trust.covalida.com` | Trust Center (certifications, sub-processors, status) | `profile/README.md` |
 | `https://docs.covalida.com` | Public product & API documentation | `profile/README.md`, `CONTRIBUTING.md`, `ISSUE_TEMPLATE/config.yml` |
 | `https://brand-guide.covalida.com` | Brand guide — corporate identity & downloadable assets | `docs/BRAND.md` |
-| `https://covalida.com/s/imprint` | Legal notice / Impressum | `profile/README.md` |
-| `https://covalida.com/s/privacy-policy` | Privacy policy / Datenschutz | `profile/README.md` |
+| `https://covalida.com/s/imprint` | Legal notice (imprint) | `profile/README.md` |
+| `https://covalida.com/s/privacy-policy` | Privacy policy | `profile/README.md` |
 | `https://covalida.com/.well-known/security.txt` | `security.txt` + PGP public key (RFC 9116) | `SECURITY.md` |
 | `https://github.com/covalida` | GitHub organization | this repo |
 | `https://github.com/orgs/covalida/discussions` | Community discussions | `CONTRIBUTING.md`, `ISSUE_TEMPLATE/config.yml`, `SUPPORT.md` |

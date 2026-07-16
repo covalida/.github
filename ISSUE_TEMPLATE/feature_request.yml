@@ -55,7 +55,7 @@ body:
       multiple: true
       options:
         - "No specific regulatory driver"
-        - "GDPR / DSGVO"
+        - "GDPR (General Data Protection Regulation)"
         - "AI Act"
         - "NIS2"
         - "CRA (Cyber Resilience Act)"
