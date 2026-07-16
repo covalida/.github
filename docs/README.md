@@ -11,7 +11,7 @@ community health configuration.
 | Document | Description |
 | --- | --- |
 | [RESOURCES.md](RESOURCES.md) | **Single source of truth** for all email addresses, web properties, GitHub presence, and brand constants. |
-| [BRAND.md](BRAND.md) | Corporate identity — logo, color palette, typography, scalability, and logo lockups. |
+| [BRAND.md](BRAND.md) | Corporate identity — logo, color palette, typography, and usage. Mirrors the authoritative brand guide at [brand-guide.covalida.com](https://brand-guide.covalida.com). |
 
 ## Conventions
 

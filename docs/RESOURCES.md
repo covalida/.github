@@ -23,6 +23,7 @@
 | `https://covalida.com/s/ec-rep` | EU Authorized Representative (EC-REP) service | `profile/README.md`, `ISSUE_TEMPLATE/config.yml` |
 | `https://trust.covalida.com` | Trust Center (certifications, sub-processors, status) | `profile/README.md` |
 | `https://docs.covalida.com` | Public product & API documentation | `profile/README.md`, `CONTRIBUTING.md`, `ISSUE_TEMPLATE/config.yml` |
+| `https://brand-guide.covalida.com` | Brand guide — corporate identity & downloadable assets | `docs/BRAND.md` |
 | `https://covalida.com/s/imprint` | Legal notice / Impressum | `profile/README.md` |
 | `https://covalida.com/s/privacy-policy` | Privacy policy / Datenschutz | `profile/README.md` |
 | `https://covalida.com/.well-known/security.txt` | `security.txt` + PGP public key (RFC 9116) | `SECURITY.md` |
@@ -71,16 +72,19 @@
 
 | Token | Hex | Usage |
 | --- | --- | --- |
-| Deep Teal | `#008080` | Primary brand color — logo mark, primary accents |
-| Light Teal | `#20B2AA` | Secondary accent — highlights, gradients, status |
-| Deep Slate Gray | `#2F4F4F` | Dark neutral — backgrounds, wordmark on light, body text |
+| Deep Teal | `#008080` | Primary — brand color, key surfaces, primary emphasis |
+| Light Teal | `#20B2AA` | Accent — lines, highlights, data-viz (not small text on white) |
+| Deep Petrol | `#155D5B` | Deep — button backgrounds, icon circles, gradient end |
+| Deep Slate Gray | `#2F4F4F` | Text — body copy, headings, and the wordmark |
+| Light Mint | `#CDE9E6` | Surface — section backgrounds, calm fills |
 | EU Blue | `#003399` | EU-flag accent — **EC-REP badge only**, not a brand color |
 | EU Gold | `#FFCC00` | EU-flag accent — paired with EU Blue on the EC-REP badge |
 
-Tagline: **"Securing the Core."**
+Tagline: **"Securing the Core."** · Typeface: **Montserrat** (400–800).
 
 > Full corporate identity (logo, construction grid, typography, scalability,
-> logo lockups, usage rules) lives in [BRAND.md](BRAND.md).
+> usage rules) lives in [BRAND.md](BRAND.md); the authoritative brand guide with
+> the complete asset library is at [brand-guide.covalida.com](https://brand-guide.covalida.com).
 
 ---
 
